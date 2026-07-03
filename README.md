@@ -192,4 +192,8 @@ The Loom walkthrough covers:
 
 ---
 
+# Link For Speed Check
+
+https://pagespeed.web.dev/analysis/https-somyati-github-io-Namoza_Assessment/kx8kzisoh2?form_factor=mobile
+
 Thank you for reviewing my submission.
