@@ -1,6 +1,6 @@
 # Namoza Developer Assignment – OrthoNow (Client Web + Martech)
 
-**Candidate:** Your Name
+**Candidate:** Somya Tiwari
 **Role:** Developer – Position 1 (Client Web + Martech)
 
 ## Assignment Overview
