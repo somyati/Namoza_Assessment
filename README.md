@@ -26,6 +26,7 @@ namoza-ortho-assignment/
 ├── task-02/
 │   ├── index.html
 │   └── pagespeed-screenshot.png
+|   └── background.png
 └── task-03/
     └── integration-design.md
 ```
@@ -66,6 +67,12 @@ File:
 
 ```text
 task-02/index.html
+```
+
+Background Image:
+
+```text
+task-02/background.png
 ```
 
 PageSpeed screenshot:
