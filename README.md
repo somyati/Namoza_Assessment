@@ -23,12 +23,11 @@ namoza-ortho-assignment/
 ├── README.md
 ├── task-01/
 │   └── gtm-schema.md
-├── task-02/
-│   └── pagespeed-screenshot.png
-|   └── background.png
 └── task-03/
 |   └── integration-design.md
 ├── index.html
+├── pagespeed-screenshot.png
+├── background.png
 ```
 
 ---
@@ -50,31 +49,18 @@ task-01/gtm-schema.md
 
 ---
 
-# Task 02 – Landing Page Build
-
-Features:
-
-- Built using HTML, CSS, and Vanilla JavaScript.
-- Single self-contained HTML file.
-- Mobile responsive design.
-- Minimal lead capture form (Name + Phone).
-- Trust elements and primary CTA.
-- `window.dataLayer.push()` fires on successful form submission.
-- Thank-you state displayed without page reload.
-- Optimized for Core Web Vitals and PageSpeed.
-
 File:
 
 Background Image:
 
-```text
-task-02/background.png
+```text:
+background.png
 ```
 
 PageSpeed screenshot:
 
 ```text
-task-02/pagespeed-screenshot.png
+pagespeed-screenshot.png
 ```
 
 ---
