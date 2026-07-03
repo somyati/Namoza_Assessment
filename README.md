@@ -1,7 +1,7 @@
 # Namoza Developer Assignment – OrthoNow (Client Web + Martech)
 
-**Candidate:** Somya Tiwari
-**Role:** Developer – Position 1 (Client Web + Martech)
+Candidate: Somya Tiwari
+Role: Developer – Position 1 (Client Web + Martech)
 
 ## Assignment Overview
 
@@ -24,11 +24,11 @@ namoza-ortho-assignment/
 ├── task-01/
 │   └── gtm-schema.md
 ├── task-02/
-│   ├── index.html
 │   └── pagespeed-screenshot.png
 |   └── background.png
 └── task-03/
-    └── integration-design.md
+|   └── integration-design.md
+├── index.html
 ```
 
 ---
@@ -65,10 +65,6 @@ Features:
 
 File:
 
-```text
-task-02/index.html
-```
-
 Background Image:
 
 ```text
@@ -101,6 +97,49 @@ File:
 ```text
 task-03/integration-design.md
 ```
+
+# index.html
+
+File:
+
+```text
+index.html
+```
+
+# Features Implemented
+
+- Built using **HTML, CSS, and Vanilla JavaScript** only.
+- Single self-contained file that runs directly in a browser.
+- Mobile-responsive consultation landing page for OrthoNow.
+- Clear headline and subheadline targeting patients with knee and back pain.
+- Minimal lead capture form with only **Name** and **Phone Number** fields.
+- Trust elements including:
+  1. 4.8/5 patient rating
+  2. 9 clinic locations
+  3. 25,000+ patients treated
+
+- Interactive hover and focus effects on form elements and CTA button.
+- Thank-you state displayed without page reload after form submission.
+- Background image and gradient overlay optimized for readability.
+
+# GTM dataLayer Event
+
+On successful form submission, the following event is pushed to the `dataLayer`:
+
+```javascript
+window.dataLayer.push({
+  event: "consultation_form_submitted",
+  patient_name_present: true,
+  phone_length: 10,
+  page_name: "consultation_landing_page",
+  campaign_name: "google_ads_consultation",
+});
+```
+
+This event can be captured in Google Tag Manager and forwarded to:
+
+1. Google Analytics 4 (GA4)
+2. Google Ads Conversion Tracking
 
 ---
 
